@@ -1,0 +1,35 @@
+h1,h2{
+color: blue;
+font-weight: normal;
+text-align:left;
+
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+body{
+    background-color: aliceblue;
+}
+button{
+    background-color:blue;
+    color: white;
+}
+#signup{
+    background-color: rgb(89, 160, 89);
+    color: white;
+}
+.tag{
+    color:black;
+    background-color: palevioletred;
+}
+input+button{
+    background-color: rosybrown;
+}
+h2+button{
+    font-size:20px;
+    background-color: rgb(89, 160, 89);
+}
+footer a {
+    color:chocolate
+}
