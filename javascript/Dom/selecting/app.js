@@ -1,4 +1,4 @@
-const  chicken = document.getElementById('banner')
+// const  chicken = document.getElementById('banner')
 
 // getElementsByTagName  => get all elements by sth
 
@@ -15,10 +15,11 @@ const  chicken = document.getElementById('banner')
 //     console.log(img.src);
 // }
 
-const h1 = documentquerySelector('h1');
-console.log(h1.innerText);
+// const h1 = documentquerySelector('h1');
+// console.log(h1.innerText);
 
 const links = document.querySelectorAll('a');
 for(let link of links){
-    link.innerText = 'I am a link';
+    link.style.color='rgb(231, 18, 228)';
+    link.style.textDecorationStyle = 'wavy';
 }
